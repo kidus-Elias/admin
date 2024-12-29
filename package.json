@@ -1,0 +1,19 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "description": "Admin dashboard for managing employees.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . AdminDashboard --platform=win32 --arch=x64"
+  },
+  "dependencies": {
+    "axios": "^1.0.0",
+    "bootstrap": "^5.3.0",
+    "dotenv": "^16.0.0",
+    "electron": "^25.3.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
